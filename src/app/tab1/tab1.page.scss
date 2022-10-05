@@ -1,0 +1,22 @@
+.row{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    background: #ee7f00;
+    width: 27%;
+    border-radius: 5px;
+    height: 100px;
+    margin: 0px 5px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.col p {
+    font-size: 10px;
+    text-align: center;
+}

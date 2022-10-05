@@ -1,0 +1,7 @@
+{
+  "name": "ia-asistence",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
