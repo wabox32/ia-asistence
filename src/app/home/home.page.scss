@@ -1,0 +1,17 @@
+
+ion-col[size="4"]{
+    height:15vh;
+}
+
+ion-col>button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ee7f00;
+    color: white;
+    height: 100%;
+}
+
+ion-col>button>ion-icon{
+    font-size:100px;
+}
