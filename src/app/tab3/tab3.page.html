@@ -1,17 +1,39 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-title>Inline Modal</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-card>
+    <ion-row class="ion-justify-content-around">
+      <ion-col size="4">
+        <ion-text>Acerca el código QR al lector en cada clase.</ion-text>
+      </ion-col>
+      <ion-col size="4">
+        <ion-img
+          src="https://play-lh.googleusercontent.com/ufwUy4SGVTqCs8fcp6Ajxfpae0bNImN1Rq2cXUjWI7jlmNMCsXgQE5C3yUEzBu5Gadkz=w240-h480-rw">
+        </ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-card-content>
+      <ion-list>
+          <ion-row class="ion-padding">
+            <ion-col size="6">
+              <div>
+                <ion-text>Inteligencia Artificial</ion-text>
+              </div>
+              <div>
+                <ion-text>20:00 A 22:00</ion-text>
+              </div>
+            </ion-col>
+            <ion-col size="6">
+              <div>
+                <ion-icon name="checkmark-sharp"></ion-icon>
+              </div>
+            </ion-col>
+          </ion-row>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

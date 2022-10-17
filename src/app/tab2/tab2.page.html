@@ -1,17 +1,58 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title>Inline Modal</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-card>
+    <ion-row class="ion-justify-content-center">      
+      <ion-col size="6">
+        <ion-img src="../../assets/img/uninpahu-logo.png"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="4">
+        <ion-img src="../../assets/img/profile-image.webp"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="6">
+        <div>
+          <ion-text class="ion-text-center text-black">JOE DOE</ion-text>
+        </div>
+        <div>
+          <ion-text class="ion-text-center text-black">PEPITO MENGANO</ion-text>
+        </div>
+        <div>
+          <ion-text class="ion-text-center text-black">CC 1033988918</ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row id="career" class="ion-justify-content-center">
+      <ion-col size="7">
+        <div>
+          <ion-text class="ion-text-center">UNIVERSITARIO DE</ion-text>
+        </div>
+        <div>
+          <ion-text class="ion-text-center">INGENIERIA EN SOFTWARE</ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="4">
+        <ion-img src="https://play-lh.googleusercontent.com/ufwUy4SGVTqCs8fcp6Ajxfpae0bNImN1Rq2cXUjWI7jlmNMCsXgQE5C3yUEzBu5Gadkz=w240-h480-rw"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="7">
+        <div>
+          <ion-text class="ion-text-center text-black">Estudiante</ion-text>
+        </div>
+        <div>
+          <ion-text class="ion-text-center text-black">COD 12467189337891218</ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-card>
 </ion-content>
